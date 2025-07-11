@@ -35,7 +35,7 @@ make -j4
 ./testCurveFitting 
 ```
 
-#### 2. VINs-Mono on Euroc Dataset
+#### 2. VINs-Mono on [The EuRoC MAV Dataset](<https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets>)
 ```c++
 ./run_euroc /home/dataset/EuRoC/MH-05/mav0/ ../config/
 ```
