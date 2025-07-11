@@ -1,7 +1,7 @@
 # VINS-Mono-No-ROS [copy from Vins Course] 
 [ ![Build Status](doc/README-English-yellow.svg) ](README_EN.md)
 
-**作者**：贺一家，高翔，崔华坤，赵松
+**原作者**：贺一家，高翔，崔华坤，赵松
 
 **描述**：
 这是一个用于[深蓝学院](<http://www.shenlanxueyuan.com/>)教学的代码，她基于 VINS-Mono 框架，但不依赖 ROS, Ceres, G2o。这个代码非常基础，目的在于演示仅基于 Eigen 的后端 LM 算法，滑动窗口算法，鲁棒核函数等等 SLAM 优化中常见的算法。
@@ -32,13 +32,11 @@ make -j4
 ### 运行
 #### 1. CurveFitting Example to Verify Our Solver.
 ```c++
-cd bin
 ./testCurveFitting 
 ```
 
 #### 2. VINs-Mono on Euroc Dataset
 ```c++
-cd bin
 ./run_euroc /home/dataset/EuRoC/MH-05/mav0/ ../config/
 ```
 ![vins](doc/vins.gif)
