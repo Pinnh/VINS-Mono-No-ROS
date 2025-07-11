@@ -1,4 +1,4 @@
-# Vins Course
+# VINS-Mono-No-ROS [copy from Vins Course] 
 [ ![Build Status](doc/README-English-yellow.svg) ](README_EN.md)
 
 **作者**：贺一家，高翔，崔华坤，赵松
