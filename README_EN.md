@@ -1,7 +1,7 @@
-# Vins Course
+# VINS-Mono-No-ROS [copy from Vins Course]
 [![Build Status](doc/README-中文-yellow.svg)](README.md)
 
-**Authors**: He Yijia, Gao Xiang, Cui huakun, Zhao Song
+**Original Authors**: He Yijia, Gao Xiang, Cui huakun, Zhao Song
 
 **Introduction**：
 This project is used for an online course about visual inertial odometry on [shenlanxueyuan](http://www.shenlanxueyuan.com). She is based on the VINS-Mono framework but does not rely on ROS, Ceres, G2o. This code is very basic and aims to demonstrate Eigen-based back-end LM algorithms, sliding window algorithms, robust kernel functions, etc. This code supports for Ubuntu or Mac OS.
@@ -10,7 +10,7 @@ This project is used for an online course about visual inertial odometry on [she
 
 1. pangolin: <https://github.com/stevenlovegrove/Pangolin>
 
-2. opencv
+2. opencv 4.x
 
 3. Eigen
 
@@ -32,13 +32,13 @@ make -j4
 #### 1. CurveFitting Example to Verify Our Back-End Solver.
 ```c++
 cd build
-../bin/testCurveFitting 
+./testCurveFitting 
 ```
 
 #### 2. VINs-Mono on Euroc Dataset
 ```c++
 cd build
-../bin/run_euroc /home/dataset/EuRoC/MH-05/mav0/ ../config/
+./run_euroc /home/dataset/EuRoC/MH-05/mav0/ ../config/
 ```
 ![vins](doc/vins.gif)
 
