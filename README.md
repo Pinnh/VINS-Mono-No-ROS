@@ -11,7 +11,7 @@
 
 1. pangolin: <https://github.com/stevenlovegrove/Pangolin>
 
-2. opencv
+2. opencv4.x
 
 3. Eigen
 
